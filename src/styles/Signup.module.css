@@ -43,6 +43,11 @@
   box-shadow: 0px 0.45em 0px 0px #df6d6d;
 }
 
+.freeTrialBtn:hover {
+  cursor: pointer;
+  background-color: hsl(248, 32%, 59%)
+}
+
 @media (max-width: 850px) {
   .background {
     background: url('../assets/images/bg-intro-mobile.png');
