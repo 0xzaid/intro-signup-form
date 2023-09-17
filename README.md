@@ -1,8 +1,17 @@
-# React + Vite
+# Frontend Mentor - Intro component with sign up form solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Intro component with sign up form challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+### Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](./src/assets/images/Screenshot.png)
+
+### Links
+- [Live site](https://0xzaid-signup-form.netlify.app/)
+
+### Built with
+- [React](https://reactjs.org/) - JS library
+- [React hook form](https://react-hook-form.com/) - Form validation in React
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
