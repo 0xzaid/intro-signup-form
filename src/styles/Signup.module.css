@@ -46,6 +46,8 @@
 @media (max-width: 850px) {
   .background {
     background: url('../assets/images/bg-intro-mobile.png');
+    height: 110%;
+    margin-top: 3rem;
   }
 
   .container {
@@ -57,7 +59,7 @@
 
   .infoText {
     text-align: center;
-    width: 50%;
+    width: 65%;
     padding-bottom: 2rem;
   }
 
