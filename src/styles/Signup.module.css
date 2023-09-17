@@ -1,0 +1,82 @@
+.background {
+  background: url('../assets/images/bg-intro-desktop.png');
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.infoText {
+  color: white;
+  width: 37%;
+  font-size: (--font-size-body);
+  text-wrap: balance;
+}
+
+.infoText>h1 {
+  font-size: 3.2rem;
+  line-height: 3.5rem;
+  padding-bottom: 2rem;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+}
+
+.freeTrialBtn {
+  background-color: var(--blue);
+  border-radius: 0.7rem;
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  box-shadow: 0px 0.45em 0px 0px #df6d6d;
+}
+
+@media (max-width: 850px) {
+  .background {
+    background: url('../assets/images/bg-intro-mobile.png');
+  }
+
+  .container {
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .infoText {
+    text-align: center;
+    width: 50%;
+    padding-bottom: 2rem;
+  }
+
+
+  .infoText>h1 {
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .freeTrialBtn {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .freeTrialBtn>p {
+    width: 60%;
+  }
+
+}
